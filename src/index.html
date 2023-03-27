@@ -2,8 +2,45 @@
 File: index.html
 Author: Juhász Katalin
 Copyright: 2023, Juhász Katalin
-Group: SZOFT I/1/E
+Group: SZOFT I_1/E
 Date: 2023-03-27
 Github: https://github.com/catlina83/ships
 Licenc: GNU GPL
 -->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ships</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ships</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Méret(cm)</th>
+                    <th>Ár</th>
+                    <th>Személyek száma</th>
+                    <th>Utánfutó</th>
+                </tr>
+            </thead>
+            <tbody id="shipbody"></tbody>
+        </table>
+    </div>
+
+    <div class="mt-4 id">
+        <p>"Egy hajó sem járja az élet óceánját úgy, hogy ne találkozna viharral."" (Charles Haddon Spurgeon)</p>
+    </div>
+
+    <div id="about" class="mt-3 text-center ab">
+        Juhász Katalin, 2023-03-27, Szoft I_1/E
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
