@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    background-color: silver;
+    background-color: rgb(7, 249, 196);
     font-family: sans-serif;
 }
 
@@ -27,6 +27,14 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     background-color: yellow;
+}
+
+h1{
+    border-bottom: #0a3d32 solid 2px;
+    padding-inline-start: 2%;
+}
+img{
+    margin-left: 2%;
 }
 
 .container h1{
@@ -44,6 +52,6 @@ td, th {
 
 .ab{
     text-align: left;
-    color: palevioletred;
+    color: rgb(0, 0, 246);
     font-size: 15px
 }
